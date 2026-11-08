@@ -1,5 +1,14 @@
-# Addtional patterns to ignore
+# Additional patterns to ignore
 .DS_Store
+
+# Dataset (download from Kaggle, never commit)
+src/data/
+*.csv
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
